@@ -2,7 +2,7 @@ var order = prompt("Do you want coffe or tea?");
 
 while (order != "tea" && order != "coffee")
 {
-  order = prompt("Do you want coffe or tea?");
+  order = prompt("Do you want coffee or tea?");
 }
 
 var itemOrder = "";
