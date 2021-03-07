@@ -1,4 +1,4 @@
-var order = prompt("Do you want coffe or tea?");
+var order = prompt("Do you want coffee or tea?");
 
 while (order != "tea" && order != "coffee")
 {
