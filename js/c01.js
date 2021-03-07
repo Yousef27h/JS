@@ -1,14 +1,22 @@
-'use strict';
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-if (hourNow > 18) {
-    greeting = 'Good evening, Class!';
-  } else if (hourNow > 12) {
-    greeting = 'Good afternoon, Class!';
-  } else if (hourNow >= 0) {
-    greeting = 'Good morning!';
-  } else {
-    greeting = 'Something went wrong!';
-  }
-document.write('<h3>'+greeting+'</h3>');
+var order = prompt("Do you want coffe or tea?");
+
+while (order != "tea" && order != "coffee")
+{
+  order = prompt("Do you want coffe or tea?");
+}
+
+var itemOrder = "";
+
+if (order == "tea")
+{
+  itemOrder="<img src='images/tea.png' />" ;
+}else 
+{
+  itemOrder = "<img src='images.coffee.jpg' />";
+}
+
+var num = prompt("How many cups?")
+for (var i=0; i<num; i++)
+{
+  document.write(itemOrder)
+}
