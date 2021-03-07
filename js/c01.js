@@ -12,7 +12,7 @@ if (order == "tea")
   itemOrder="<img src='images/tea.png' />" ;
 }else 
 {
-  itemOrder = "<img src='images.coffee.jpg' />";
+  itemOrder = "<img src='images.coffee.png' />";
 }
 
 var num = prompt("How many cups?")
