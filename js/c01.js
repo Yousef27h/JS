@@ -30,9 +30,9 @@ var itemOrder = "";
 if (order == "tea")
 {
   itemOrder="<img src='images/tea.png' />" ;
-  document.write(itemOrder)
+  document.write(itemOrder+ "<br>"+ "<br>")
 }else 
 {
-  itemOrder = "<img src='images/coffee.png' />";
-  document.write(itemOrder)
+  itemOrder = "<img src='images/coffee1.png' />";
+  document.write(itemOrder+ "<br>"+ "<br>")
 }

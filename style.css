@@ -1,0 +1,46 @@
+/* body  */
+body{
+    background-color:#dddddd;
+}
+
+/* heading1 */
+h1{
+    text-align: center;
+    color:#30475e;
+    font-family: 'cursive', 'lucida';
+    text-shadow: 1.5px 1.5px #7a7f88;
+    
+}
+
+/* heading2 */
+#subheadingColor{
+    font-family: monospace;
+    color: #f05454;
+}
+
+
+/* paragraphs */
+.paragraphsColor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #30475e;
+}
+
+
+/* list items */
+.listColor{
+    font-family:cursive;
+    color: #222831;
+}
+
+/* links */
+a{
+   text-decoration: none;
+   text-align: center; 
+   border: 2px solid rgb(247, 115, 115);
+   color: rgb(252, 55, 55);
+   font-family: cursive;
+}
+a:hover{
+    text-decoration: none;
+    color: #222831;
+}
