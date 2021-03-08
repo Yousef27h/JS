@@ -1,24 +1,38 @@
 var order = prompt("Do you want coffee or tea?");
 
+
 while (order != "tea" && order != "coffee")
 {
+  order = prompt("Sorry, but We only have tea and coffee \n what's your choice? ");
+}
+var num = prompt("How many cups?");
+
+
+
+
+function printingOrder(){
+
+var confirmation = confirm("Do you want to change your order? \n OK if Yes, Cancel if NO")
+
+while (confirmation){
+  
   order = prompt("Do you want coffee or tea?");
+  num = prompt("How many cups?");
+  confirmation = confirm("Do you want to change your order?"  + '<br>' + "OK if Yes, Cancel if NO");
+
+}
+document.write("Your order is : "+ num+ " Cup(s) of "+ order + '<br>'  + '<br>')
 }
 
-var itemOrder = "";
+printingOrder();
 
+var itemOrder = "";
 if (order == "tea")
 {
   itemOrder="<img src='images/tea.png' />" ;
+  document.write(itemOrder)
 }else 
 {
   itemOrder = "<img src='images/coffee.png' />";
-}
-
-var num = prompt("How many cups?")
-var cupNum = 1
-for (var i=0; i<num; i++)
-{
   document.write(itemOrder)
-  document.write("Cup number "+ cupNum++)
 }
